@@ -19,11 +19,11 @@
 		<div id="googleMap" style="width:500px;height:500px"></div>
 		<script>
 		function myMap() {
-			var mapOptions = {
+			var mapProp = {
 				center: new google.maps.LatLng(47.653555,-122.3085158),
 				zoom:5,
 			};
-		var map = new google.maps.document.getElementById("googleMap"), mapOptions);
+		var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 		}
 		</script>
 		<script src="https://maps.googleapis.com/maps/api/js?
