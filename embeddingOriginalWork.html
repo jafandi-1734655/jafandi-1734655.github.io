@@ -15,9 +15,19 @@
 		</iframe>
 		
 		<h2>Google Maps</h2>
-
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.588903916899!2d-122.30851578521542!3d47.653554979187845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014ed49f4d0cd%3A0x73326356953cd551!2sElectrical+Engineering+Building+(EEB)!5e0!3m2!1sen!2sus!4v1522365847053" 
-			width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
-		</iframe>
+		
+		<div id="googleMap" style="width:500px;height:500px"></div>
+		<script>
+		function myMap() {
+			var mapOptions = {
+				center: new google.maps.LatLng(47.653555,-122.3085158),
+				zoom:5,
+			};
+		var map = new google.maps.document.getElementById("googleMap"), mapOptions);
+		}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?
+			key=YOUR_KEY&callback=myMap">
+		</script>
 	</body>
 </html>
