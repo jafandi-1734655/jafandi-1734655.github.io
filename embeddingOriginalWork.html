@@ -1,0 +1,36 @@
+<!DOCTYPE html:>
+<html>
+	<head>
+		<title>embeddingOriginalWork</title>
+	</head>
+	<body>
+		<h1>Newbie</h1>
+		<h2>Youtube Video</h2>
+		<iframe 
+			width="560" 
+			height="315" 
+			src="https://www.youtube.com/embed/0j8frgmdvgc" 
+				frameborder="0" allow="autoplay; encrypted-media" 
+				allowfullscreen>
+		</iframe>
+		
+		<h2>Google Map of the EEB</h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.588903916899!2d-122.30851578521542!3d47.653554979187845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014ed49f4d0cd%3A0x73326356953cd551!2sElectrical+Engineering+Building+(EEB)!5e0!3m2!1sen!2sus!4v1522367784166" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAenHgbaVv_eL5wXmMDuVyThIMa4r0DvPM&callback=myMap"></script>
+		
+		<h2>Countdown to Summer</h2>
+		<script type="text/javascript">
+			today = new Date();
+			BigDay = new Date("June 9, 2018");
+			msPerDay = 24 * 60 * 60 * 1000 ;
+			timeLeft = (BigDay.getTime() - today.getTime());
+			e_daysLeft = timeLeft / msPerDay;
+			daysLeft = Math.floor(e_daysLeft);
+			e_hrsLeft = (e_daysLeft - daysLeft)*24;
+			hrsLeft = Math.floor(e_hrsLeft);
+			minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+			document.write("There are only<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> Until June 9, 2018<P>");
+		</script>
+	</body>
+</html>
