@@ -1,0 +1,42 @@
+p1 {
+    color: black;
+	font-style: italic;
+	font-family: Arial;
+}
+
+
+p2 {
+				border: dotted 3px black
+			}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h4 {text-align: center;}
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#floatRight {
+    width: 300px;
+    height: 400px;
+    float: right;
+}
