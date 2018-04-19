@@ -6,8 +6,8 @@ p1 {
 
 
 p2 {
-				border: dotted 3px black
-			}
+    border: dotted 3px black
+}
 
 .container {
     position: relative;
@@ -39,4 +39,12 @@ h4 {text-align: center;}
     width: 300px;
     height: 400px;
     float: right;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background:#80ccff;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
 }
